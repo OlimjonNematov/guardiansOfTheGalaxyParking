@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "ship.h"
+#include "Ship.h"
 
 using namespace std;
 
@@ -23,7 +23,7 @@ int main() {
         if(tempFirstWord=="enter"){
             
             //create a new ship object
-            ship *tempShip=new ship();
+            Ship *tempShip=new Ship();
 
             //if dock is not full, add the ship to the open dock
 

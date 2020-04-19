@@ -123,6 +123,33 @@ project4/fast:
 	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/build
 .PHONY : project4/fast
 
+Ship.o: Ship.cpp.o
+
+.PHONY : Ship.o
+
+# target to build an object file
+Ship.cpp.o:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Ship.cpp.o
+.PHONY : Ship.cpp.o
+
+Ship.i: Ship.cpp.i
+
+.PHONY : Ship.i
+
+# target to preprocess a source file
+Ship.cpp.i:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Ship.cpp.i
+.PHONY : Ship.cpp.i
+
+Ship.s: Ship.cpp.s
+
+.PHONY : Ship.s
+
+# target to generate assembly for a file
+Ship.cpp.s:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Ship.cpp.s
+.PHONY : Ship.cpp.s
+
 linkedList.o: linkedList.cpp.o
 
 .PHONY : linkedList.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project4"
+	@echo "... Ship.o"
+	@echo "... Ship.i"
+	@echo "... Ship.s"
 	@echo "... linkedList.o"
 	@echo "... linkedList.i"
 	@echo "... linkedList.s"

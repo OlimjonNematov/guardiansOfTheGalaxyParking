@@ -88,6 +88,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Ship.cpp">
+			<Option target="project4"/>
+		</Unit>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Ship.h">
+			<Option target="project4"/>
+		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/dock.h">
 			<Option target="project4"/>
 		</Unit>
@@ -98,9 +104,6 @@
 			<Option target="project4"/>
 		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/main.cpp">
-			<Option target="project4"/>
-		</Unit>
-		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/ship.h">
 			<Option target="project4"/>
 		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/ticket.cpp">

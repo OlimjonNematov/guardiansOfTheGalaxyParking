@@ -1,24 +1,25 @@
 //
-// Created by Olimjon Nematov on 4/16/20.
+// Created by Olimjon Nematov on 4/19/20.
 //
 
 #ifndef PROJECT4_SHIP_H
 #define PROJECT4_SHIP_H
-#include <iostream>
+#include <string>
 
-class ship {
+class Ship {
 private:
-    std::string name;
-    std::string id;
-    int credits;
-    ship *next= nullptr;
+    std::string name="";
+    std::string id="";
+    int credits=0;
+    Ship *next= nullptr;
+
 public:
     //contructor
-    ship();
+    Ship();
     //overloaded constructor
-    ship(std::string n,std::string i,int c );
+    Ship(std::string n,std::string i,int c );
     //copy conntructor
-    ship(ship &s);
+    Ship(Ship &s);
 
     //getters
     std::string getName(){ return name;}
@@ -29,7 +30,7 @@ public:
     void setName(std::string n){name=n;}
     void setId(std::string i){id=i;}
     void setCredits(int c){credits=c;}
-    void setNext(ship *s);
+    void setNext(Ship *s);
 };
 
 

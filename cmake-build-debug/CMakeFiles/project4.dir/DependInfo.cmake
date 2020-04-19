@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/olimjonnematov/Documents/c++/project4/Ship.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/Ship.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/linkedList.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/linkedList.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/main.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/main.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/ticket.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/ticket.cpp.o"

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/project4.dir/Ship.cpp.o"
   "CMakeFiles/project4.dir/linkedList.cpp.o"
   "CMakeFiles/project4.dir/main.cpp.o"
   "CMakeFiles/project4.dir/ticket.cpp.o"
