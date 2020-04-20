@@ -2,18 +2,18 @@
 // Created by Olimjon Nematov on 4/20/20.
 //
 
-#include "Space.h"
+#include "Dock.h"
 //constructors
 Dock::Dock(){
 
 }
-Dock::Dock(Ship &s){
+Dock::Dock(Ship *s){
     ship=s;
 }
 Dock::Dock(Dock &d) {
     hours=d.hours;
-    min=d.mins;
-    ship=*d.ship;
+    mins=d.mins;
+    ship=d.ship;
 }
 
 //setters

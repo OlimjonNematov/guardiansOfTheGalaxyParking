@@ -1,19 +1,19 @@
 #include <iostream>
 #include <fstream>
 #include "Ship.h"
-#include "Space.h"
+#include "Dock.h"
 #include <vector>
 
 using namespace std;
 
 
-void fillDockArr(Space arr[], int size){
+void fillDockArr(Dock arr[], int size){
     for(int i=0; i<size;i++){
-        Space tempDock;
+        Dock tempDock;
         arr[i]=tempDock;
     }
 }
-bool hasSpotOpen(Space arr[], int size){
+bool hasSpotOpen(Dock arr[], int size){
     for(int i=0; i<size;i++){
         if(arr[i].getShip()== nullptr){
             return true;
@@ -32,7 +32,7 @@ int main() {
 
     //if word ==enter then create new ships
    string tempString="";
-    Space dockArr[10];
+    Dock dockArr[10];
     fillDockArr(dockArr,10);
     //get each line
     while(getline(in,tempString)){

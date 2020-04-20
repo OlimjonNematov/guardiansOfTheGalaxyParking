@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/olimjonnematov/Documents/c++/project4/Dock.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/Dock.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/LinkedList.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/LinkedList.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/Ship.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/Ship.cpp.o"
-  "/Users/olimjonnematov/Documents/c++/project4/Space.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/Space.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/main.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/main.cpp.o"
   "/Users/olimjonnematov/Documents/c++/project4/ticket.cpp" "/Users/olimjonnematov/Documents/c++/project4/cmake-build-debug/CMakeFiles/project4.dir/ticket.cpp.o"
   )

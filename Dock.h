@@ -2,21 +2,20 @@
 // Created by Olimjon Nematov on 4/20/20.
 //
 
-#ifndef PROJECT4_SPACE_H
-#define PROJECT4_SPACE_H
-
+#ifndef PROJECT4_DOCK_H
+#define PROJECT4_DOCK_H
 
 #include "Ship.h"
 
-class Space {
+class Dock {
 private:
     int hours=0;
     int mins=0;
     Ship *ship= nullptr;
 public:
-    Space();
-    Space(Ship *s);
-    Space(Space &d);
+    Dock();
+    Dock(Ship *s);
+    Dock(Dock &d);
 
     //getter
     int getHours(){ return hours;}
@@ -30,4 +29,4 @@ public:
 };
 
 
-#endif //PROJECT4_SPACE_H
+#endif //PROJECT4_DOCK_H
