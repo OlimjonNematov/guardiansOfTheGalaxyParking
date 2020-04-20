@@ -5,9 +5,13 @@
 #ifndef PROJECT4_TICKET_H
 #define PROJECT4_TICKET_H
 
+#include "Ship.h"
 
 class ticket {
+private:
+    Ship* shipInfo;
 
+public:
 };
 
 

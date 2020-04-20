@@ -17,7 +17,6 @@ int main() {
     //if word ==enter then create new ships
    string tempString="";
 
-
     //get each line
     while(getline(in,tempString)){
         //create a vector of each word in the string
@@ -35,7 +34,7 @@ int main() {
         if(wordsInEachLine.at(0)=="enter"){
 
             //create a new ship object
-            Ship *tempShip=new Ship();
+            Ship *tempShip=new Ship(wordsInEachLine.at(2),wordsInEachLine.at(3),stoi(wordsInEachLine.at(4)));
 
             //if dock is not full, add the ship to the open dock
 
