@@ -1,10 +1,26 @@
 #include <iostream>
 #include <fstream>
 #include "Ship.h"
+#include "Space.h"
 #include <vector>
 
 using namespace std;
 
+
+void fillDockArr(Space arr[], int size){
+    for(int i=0; i<size;i++){
+        Space tempDock;
+        arr[i]=tempDock;
+    }
+}
+bool hasSpotOpen(Space arr[], int size){
+    for(int i=0; i<size;i++){
+        if(arr[i].getShip()== nullptr){
+            return true;
+        }
+    }
+    return false;
+}
 int main() {
 
     //set up input file
@@ -16,7 +32,8 @@ int main() {
 
     //if word ==enter then create new ships
    string tempString="";
-
+    Space dockArr[10];
+    fillDockArr(dockArr,10);
     //get each line
     while(getline(in,tempString)){
         //create a vector of each word in the string
@@ -36,9 +53,15 @@ int main() {
             //create a new ship object
             Ship *tempShip=new Ship(wordsInEachLine.at(2),wordsInEachLine.at(3),stoi(wordsInEachLine.at(4)));
 
-            //if dock is not full, add the ship to the open dock
 
-            //if dock is full, add ship to linked list
+            if(hasSpotOpen(dockArr,10)){
+                //if dock array is not full, add the ship to the open dock
+
+            }else{
+                //if dock is full, add ship to linked list
+
+            }
+
         }
         if(wordsInEachLine.at(0)=="exit"){
             //remove the obj from the dock

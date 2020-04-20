@@ -123,6 +123,60 @@ project4/fast:
 	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/build
 .PHONY : project4/fast
 
+Dock.o: Dock.cpp.o
+
+.PHONY : Dock.o
+
+# target to build an object file
+Dock.cpp.o:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Dock.cpp.o
+.PHONY : Dock.cpp.o
+
+Dock.i: Dock.cpp.i
+
+.PHONY : Dock.i
+
+# target to preprocess a source file
+Dock.cpp.i:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Dock.cpp.i
+.PHONY : Dock.cpp.i
+
+Dock.s: Dock.cpp.s
+
+.PHONY : Dock.s
+
+# target to generate assembly for a file
+Dock.cpp.s:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Dock.cpp.s
+.PHONY : Dock.cpp.s
+
+LinkedList.o: LinkedList.cpp.o
+
+.PHONY : LinkedList.o
+
+# target to build an object file
+LinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/LinkedList.cpp.o
+.PHONY : LinkedList.cpp.o
+
+LinkedList.i: LinkedList.cpp.i
+
+.PHONY : LinkedList.i
+
+# target to preprocess a source file
+LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/LinkedList.cpp.i
+.PHONY : LinkedList.cpp.i
+
+LinkedList.s: LinkedList.cpp.s
+
+.PHONY : LinkedList.s
+
+# target to generate assembly for a file
+LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/LinkedList.cpp.s
+.PHONY : LinkedList.cpp.s
+
 Ship.o: Ship.cpp.o
 
 .PHONY : Ship.o
@@ -150,32 +204,32 @@ Ship.cpp.s:
 	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Ship.cpp.s
 .PHONY : Ship.cpp.s
 
-linkedList.o: linkedList.cpp.o
+Space.o: Space.cpp.o
 
-.PHONY : linkedList.o
+.PHONY : Space.o
 
 # target to build an object file
-linkedList.cpp.o:
-	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/linkedList.cpp.o
-.PHONY : linkedList.cpp.o
+Space.cpp.o:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Space.cpp.o
+.PHONY : Space.cpp.o
 
-linkedList.i: linkedList.cpp.i
+Space.i: Space.cpp.i
 
-.PHONY : linkedList.i
+.PHONY : Space.i
 
 # target to preprocess a source file
-linkedList.cpp.i:
-	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/linkedList.cpp.i
-.PHONY : linkedList.cpp.i
+Space.cpp.i:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Space.cpp.i
+.PHONY : Space.cpp.i
 
-linkedList.s: linkedList.cpp.s
+Space.s: Space.cpp.s
 
-.PHONY : linkedList.s
+.PHONY : Space.s
 
 # target to generate assembly for a file
-linkedList.cpp.s:
-	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/linkedList.cpp.s
-.PHONY : linkedList.cpp.s
+Space.cpp.s:
+	$(MAKE) -f CMakeFiles/project4.dir/build.make CMakeFiles/project4.dir/Space.cpp.s
+.PHONY : Space.cpp.s
 
 main.o: main.cpp.o
 
@@ -240,12 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project4"
+	@echo "... Dock.o"
+	@echo "... Dock.i"
+	@echo "... Dock.s"
+	@echo "... LinkedList.o"
+	@echo "... LinkedList.i"
+	@echo "... LinkedList.s"
 	@echo "... Ship.o"
 	@echo "... Ship.i"
 	@echo "... Ship.s"
-	@echo "... linkedList.o"
-	@echo "... linkedList.i"
-	@echo "... linkedList.s"
+	@echo "... Space.o"
+	@echo "... Space.i"
+	@echo "... Space.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -88,19 +88,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Dock.cpp">
+			<Option target="project4"/>
+		</Unit>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Dock.h">
+			<Option target="project4"/>
+		</Unit>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/LinkedList.cpp">
+			<Option target="project4"/>
+		</Unit>
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/LinkedList.h">
+			<Option target="project4"/>
+		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Ship.cpp">
 			<Option target="project4"/>
 		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Ship.h">
 			<Option target="project4"/>
 		</Unit>
-		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/dock.h">
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Space.cpp">
 			<Option target="project4"/>
 		</Unit>
-		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/linkedList.cpp">
-			<Option target="project4"/>
-		</Unit>
-		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/linkedList.h">
+		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/Space.h">
 			<Option target="project4"/>
 		</Unit>
 		<Unit filename="/Users/olimjonnematov/Documents/c++/project4/main.cpp">

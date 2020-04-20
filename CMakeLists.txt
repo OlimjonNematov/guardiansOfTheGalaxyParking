@@ -3,4 +3,4 @@ project(project4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(project4 main.cpp ticket.cpp ticket.h LinkedList.cpp LinkedList.h dock.h Ship.cpp Ship.h)
+add_executable(project4 main.cpp ticket.cpp ticket.h LinkedList.cpp LinkedList.h Ship.cpp Ship.h Space.cpp Space.h)

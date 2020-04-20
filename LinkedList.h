@@ -16,7 +16,7 @@ public:
     //overloaded contrsuctor
     LinkedList(Ship* s);
     //overloaded operators
-    operator
+
 
 
 
