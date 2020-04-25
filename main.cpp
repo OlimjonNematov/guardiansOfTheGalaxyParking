@@ -25,7 +25,7 @@ int hasSpotOpen(Dock arr[], int size){
 int findWhichDockItWasIn(Dock arr[],string id){
     //check each element in the array and see if the id matches the
     for(int i=0;i<10;i++){
-        if(arr->getShip()==NULL){
+        if(arr[i].getShip()==NULL){
             continue;
         }
         if(arr[i].getShip()->getId()==id){
