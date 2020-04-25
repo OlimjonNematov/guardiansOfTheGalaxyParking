@@ -62,17 +62,21 @@ int main() {
                 wordsInEachLine.push_back(tempString.substr(prevSpace+1,i-prevSpace));
             }
         }
-        cout<<wordsInEachLine.at(0)<<endl;
         if(wordsInEachLine.at(0)=="enter"){
 
             //create a new ship object
             Ship *tempShip=new Ship(wordsInEachLine.at(2),wordsInEachLine.at(3),stoi(wordsInEachLine.at(4)));
 
             if(hasSpotOpen(dockArr,10)!=-1){
+                int openIndex=hasSpotOpen(dockArr,10);
                 //if dock array is not full, add the ship to the open dock
-                dockArr[hasSpotOpen(dockArr,10)].setShip(tempShip);
-//                dockArr[hasSpotOpen(dockArr,10)].setMins(stoi(wordsInEachLine.at(1).substr(3,2)));
-//                dockArr[hasSpotOpen(dockArr,10)].setHours(stoi(wordsInEachLine.at(1).substr(0,2)));
+                dockArr[openIndex].setShip(tempShip);
+                Dock openDock=dockArr[openIndex];
+                Ship *s=dockArr[openIndex].getShip();
+                int hrs=stoi(wordsInEachLine.at(1).substr(0,2));
+                int mins=stoi(wordsInEachLine.at(1).substr(3,2));
+                openDock.setHours(hrs);
+                openDock.setMins(mins);
             }else{
                 //if dock is full, add ship to linked list
                 queue+=(tempShip);
@@ -100,8 +104,12 @@ int main() {
             //remove the obj from the dock
             dockArr[findWhichDockItWasIn(dockArr,wordsInEachLine.at(1))].setShip(nullptr);
 
-            //assign next ship to dock and change linked list
+            //assign next ship to dock
 
+
+            // change linked list
+
+            --queue;
         }
     }
 

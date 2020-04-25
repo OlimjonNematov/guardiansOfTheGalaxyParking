@@ -19,7 +19,7 @@ public:
 
     //overloaded operators
     Ship* operator+=(Ship *s);
-    Ship operator--();
+    Ship* operator--();
 
     //get
     Ship *getHead(){return this->head;}

@@ -28,20 +28,19 @@ Ship* LinkedList::operator+=(Ship *s1){
     ptr->setNext(tempShip);
 
     return this->head;
-    /*
-    if(head->getNext()== nullptr){
-        head->setNext(s1);
-    }else{
-        for(int i=0;tempShip->getNext()!= nullptr;i++){
-            tempShip=tempShip->getNext();
-        }
-        tempShip->setNext(s1);
-    }
-    //*/
 }
-//Ship LinkedList::operator--(){
-//    //removes the node in beginning of list
-//}
+
+Ship* LinkedList::operator--(){
+    //removes the node in beginning of list
+    Ship *temp=this->head->getNext();
+    if(this->head->getNext()==NULL){
+        return this->head;
+    }
+    this->head=this->head->getNext();
+    delete(temp);
+
+    return this->head;
+}
 LinkedList::~LinkedList() {
     Ship *temp;
     while(head!= nullptr){
