@@ -13,9 +13,11 @@ CMakeFiles/project4.dir/Ship.cpp.o: ../Ship.cpp
 CMakeFiles/project4.dir/Ship.cpp.o: ../Ship.h
 
 CMakeFiles/project4.dir/main.cpp.o: ../Dock.h
+CMakeFiles/project4.dir/main.cpp.o: ../LinkedList.h
 CMakeFiles/project4.dir/main.cpp.o: ../Ship.h
 CMakeFiles/project4.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/project4.dir/ticket.cpp.o: ../Dock.h
 CMakeFiles/project4.dir/ticket.cpp.o: ../Ship.h
 CMakeFiles/project4.dir/ticket.cpp.o: ../ticket.cpp
 CMakeFiles/project4.dir/ticket.cpp.o: ../ticket.h

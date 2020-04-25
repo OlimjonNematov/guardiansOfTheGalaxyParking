@@ -11,7 +11,7 @@ private:
     std::string name="";
     std::string id="";
     int credits=0;
-    Ship *next= nullptr;
+    Ship *next;
 
 public:
     //contructor
@@ -25,7 +25,7 @@ public:
     std::string getName(){ return name;}
     std::string getId(){ return id;}
     int getCredits(){ return credits;}
-
+    Ship* getNext(){return this->next;}
     //setters
     void setName(std::string n){name=n;}
     void setId(std::string i){id=i;}

@@ -3,3 +3,9 @@
 //
 
 #include "ticket.h"
+
+double calcFine();
+
+std::ostream ticket::operator<<(std::ostream& os){
+
+}

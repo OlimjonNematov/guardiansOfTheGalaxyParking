@@ -7,8 +7,9 @@
 Dock::Dock(){
 
 }
-Dock::Dock(Ship *s){
-    ship=s;
+Dock::Dock(int h,int m){
+    hours=h;
+    mins=m;
 }
 Dock::Dock(Dock &d) {
     hours=d.hours;
@@ -19,4 +20,10 @@ Dock::Dock(Dock &d) {
 //setters
 void Dock::setShip(Ship *s) {
     ship=s;
+    /*
+    Ship *temp= nullptr;
+    temp=this->ship;
+    this->ship=s;
+    s=temp;
+    //*/
 }

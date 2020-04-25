@@ -11,10 +11,10 @@ class Dock {
 private:
     int hours=0;
     int mins=0;
-    Ship *ship= nullptr;
+    Ship *ship;
 public:
     Dock();
-    Dock(Ship *s);
+    Dock(int hrs,int min);
     Dock(Dock &d);
 
     //getter

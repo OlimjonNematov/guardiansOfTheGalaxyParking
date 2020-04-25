@@ -9,17 +9,25 @@
 
 class LinkedList {
 private:
-    Ship* nextShip= nullptr;
+    Ship* head= nullptr;
+    char y;
 public:
     //constructor
     LinkedList();
     //overloaded contrsuctor
     LinkedList(Ship* s);
+
     //overloaded operators
+    Ship* operator+=(Ship *s);
+    Ship operator--();
 
+    //get
+    Ship *getHead(){return this->head;}
+    //set
+    void *setHead(Ship *s1){ this->head=s1;}
 
-
-
+    //destructor
+    ~LinkedList();
 };
 
 
